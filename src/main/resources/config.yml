@@ -1,0 +1,23 @@
+# ================================
+# DEvent - Configuration
+# ================================
+
+# Aucune section "storage" : les événements sont définis ici, et leurs
+# minuteries repartent de zéro à chaque démarrage du serveur (voir README).
+
+# type: "broadcast" (juste un message serveur) ou "loot-drop" (message +
+# objet aléatoire de loot-pool mis en vente à l'hôtel des ventes via
+# AuctionService - nécessite DAPI + DAuction installés, sinon l'événement
+# se contente d'annoncer le message sans créer d'annonce).
+events:
+  - id: butin-rare
+    type: loot-drop
+    interval-minutes: 120
+    announce: '&6&lÉVÉNEMENT &e- Un objet rare vient d''apparaître à l''hôtel des ventes ! Tape /ah pour le découvrir.'
+    loot-pool: [DIAMOND_BLOCK, NETHERITE_INGOT, ENCHANTED_GOLDEN_APPLE, NETHER_STAR]
+    price-min: 500
+    price-max: 2000
+  - id: rappel-tournoi
+    type: broadcast
+    interval-minutes: 60
+    announce: '&b&lTOURNOI &f- Un tournoi PvP est bientôt organisé, prépare-toi !'

@@ -1,0 +1,20 @@
+name: DEvent
+version: '${project.version}'
+main: com.devent.DEvent
+api-version: '26.1'
+author: Duapar
+description: Événements planifiés côté serveur (annonces, objets rares mis en vente automatiquement à l'hôtel des ventes).
+softdepend: [DAPI]
+
+permissions:
+  devent.use:
+    description: Autorise à lister les événements planifiés.
+    default: true
+  devent.admin:
+    description: Autorise à déclencher un événement manuellement.
+    default: op
+
+commands:
+  event:
+    description: Liste les événements planifiés, ou en déclenche un manuellement.
+    usage: /event list|trigger <id>
