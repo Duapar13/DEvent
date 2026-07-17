@@ -1,9 +1,9 @@
-package com.devent.commands;
+package com.duapar.devent.commands;
 
-import com.devent.manager.EventException;
-import com.devent.manager.EventManager;
-import com.devent.model.ScheduledEvent;
-import com.devent.util.Msg;
+import com.duapar.devent.manager.EventException;
+import com.duapar.devent.manager.EventManager;
+import com.duapar.devent.model.ScheduledEvent;
+import com.duapar.devent.util.Msg;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

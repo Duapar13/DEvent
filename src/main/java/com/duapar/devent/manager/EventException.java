@@ -1,4 +1,4 @@
-package com.devent.manager;
+package com.duapar.devent.manager;
 
 public class EventException extends RuntimeException {
 

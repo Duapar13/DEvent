@@ -1,7 +1,7 @@
-package com.devent.integration;
+package com.duapar.devent.integration;
 
-import com.dapi.DAPI;
-import com.dapi.service.AuctionService;
+import com.duapar.dapi.DAPI;
+import com.duapar.dapi.service.AuctionService;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.UUID;

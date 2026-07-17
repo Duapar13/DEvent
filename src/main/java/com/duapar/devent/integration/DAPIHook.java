@@ -1,6 +1,6 @@
-package com.devent.integration;
+package com.duapar.devent.integration;
 
-import com.dapi.DAPI;
+import com.duapar.dapi.DAPI;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**

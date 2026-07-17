@@ -1,6 +1,6 @@
 name: DEvent
 version: '${project.version}'
-main: com.devent.DEvent
+main: com.duapar.devent.DEvent
 api-version: '26.1'
 author: Duapar
 description: Événements planifiés côté serveur (annonces, objets rares mis en vente automatiquement à l'hôtel des ventes).

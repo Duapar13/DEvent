@@ -1,4 +1,4 @@
-package com.devent.model;
+package com.duapar.devent.model;
 
 import org.bukkit.Material;
 

@@ -1,8 +1,8 @@
-package com.devent;
+package com.duapar.devent;
 
-import com.devent.commands.EventCommand;
-import com.devent.integration.DAPIHook;
-import com.devent.manager.EventManager;
+import com.duapar.devent.commands.EventCommand;
+import com.duapar.devent.integration.DAPIHook;
+import com.duapar.devent.manager.EventManager;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 

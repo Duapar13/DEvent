@@ -1,8 +1,8 @@
-package com.devent.manager;
+package com.duapar.devent.manager;
 
-import com.devent.integration.AuctionLookup;
-import com.devent.model.EventType;
-import com.devent.model.ScheduledEvent;
+import com.duapar.devent.integration.AuctionLookup;
+import com.duapar.devent.model.EventType;
+import com.duapar.devent.model.ScheduledEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

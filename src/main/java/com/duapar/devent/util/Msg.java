@@ -1,4 +1,4 @@
-package com.devent.util;
+package com.duapar.devent.util;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
